@@ -3,6 +3,11 @@
 
 Releases in reverse chronological order.
 
+### 2020-09-23
+
+- v8.3.0-1.9
+- based on v8.3.0-1.2, use hard-float sqrt instead of soft-float one
+
 ### 2020-07-04
 
 - v8.3.0-1.2.1 published on npmjs.com

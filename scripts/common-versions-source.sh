@@ -171,13 +171,13 @@ function build_versions()
 
       BINUTILS_GIT_BRANCH=${BINUTILS_GIT_BRANCH:-"sifive-binutils-2.32-xpack"}
       # 16 April 2019
-      BINUTILS_GIT_COMMIT=${BINUTILS_GIT_COMMIT:-"03d23d58701bdd425c613b0be2d458bcde46912b"}
+      BINUTILS_GIT_COMMIT=${BINUTILS_GIT_COMMIT:-"4b773a498411d9bfcaf0ae99b6c52f26487c9959"}
 
       GCC_GIT_BRANCH=${GCC_GIT_BRANCH:-"sifive-gcc-8.3.0-xpack"}
-      GCC_GIT_COMMIT=${GCC_GIT_COMMIT:-"e195042babe2dc30d9fabb88d336d8c8679b3702"}
+      GCC_GIT_COMMIT=${GCC_GIT_COMMIT:-"e5ac1b53bfc15beefcce6b3bff556528d3806cc7"}
 
-      NEWLIB_GIT_BRANCH=${NEWLIB_GIT_BRANCH:-"sifive-master-xpack"}
-      NEWLIB_GIT_COMMIT=${NEWLIB_GIT_COMMIT:-"0d24a86822a5ee73d6a6aa69e2a0118aa1e35204"}
+      NEWLIB_GIT_BRANCH=${NEWLIB_GIT_BRANCH:-"sifive-master-xpack-canaan"}
+      NEWLIB_GIT_COMMIT=${NEWLIB_GIT_COMMIT:-"78aa4f96570ba044b7a46f7bd5b305fef451317c"}
 
       GDB_SRC_FOLDER_NAME=${GDB_SRC_FOLDER_NAME:-"binutils-gdb.git"}
       GDB_GIT_BRANCH=${GDB_GIT_BRANCH:-"sifive-gdb-8.3-xpack"}
@@ -211,7 +211,7 @@ function build_versions()
 
       WITH_GDB_PY2="y"
 
-    elif [ "${RELEASE_VERSION}" == "8.3.0-1.2" ]
+    elif [ "${RELEASE_VERSION}" == "8.3.0-1.2" -o "${RELEASE_VERSION}" == "8.3.0-1.9" ]
     then
 
       if [ "${TARGET_PLATFORM}" == "win32" ]

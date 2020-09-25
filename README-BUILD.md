@@ -454,7 +454,7 @@ network connection or a computer entering sleep.
 $ screen -S riscv
 
 $ sudo rm -rf ~/Work/riscv-none-embed-gcc-*
-$ bash ~/Downloads/riscv-none-embed-gcc-xpack.git/scripts/build.sh --all
+$ bash ~/Downloads/riscv-none-embed-gcc-xpack.git/scripts/build.sh --all --use-gits
 ```
 
 To detach from the session, use `Ctrl-a` `Ctrl-d`; to reattach use

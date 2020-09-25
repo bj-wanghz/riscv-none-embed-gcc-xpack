@@ -76,7 +76,7 @@ function prepare_variables()
 
     NEWLIB_SRC_FOLDER_NAME=${NEWLIB_SRC_FOLDER_NAME:-"${NEWLIB_PROJECT_NAME}.git"}
       
-    NEWLIB_GIT_URL=${NEWLIB_GIT_URL:-"https://github.com/xpack-dev-tools/${NEWLIB_PROJECT_NAME}.git"}
+    NEWLIB_GIT_URL=${NEWLIB_GIT_URL:-"https://github.com/bj-wanghz/${NEWLIB_PROJECT_NAME}.git"}
 
     NEWLIB_ARCHIVE_URL=""
 
